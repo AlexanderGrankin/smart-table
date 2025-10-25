@@ -21,7 +21,6 @@ export function initFiltering(elements) {
             if (field && field in state) state[field] = ''; 
         }
 
-        // @todo: #4.5 — отфильтровать данные, используя компаратор
         const filter = {};
         Object.keys(elements).forEach(key => {
             if (elements[key]) {
